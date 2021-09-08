@@ -1,0 +1,20 @@
+body, textarea, button {
+  font-family: "Cousine", "Courier New", "Mono";
+  font-size: 12pt;
+}
+
+body {
+  background-color: black;
+}
+
+input {
+  background-color: teal;
+  width: 80%;
+  height:50px;
+  font-size:20pt;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
