@@ -1,0 +1,12 @@
+{
+  "name": "QR Scanner App",
+  "description": "Takes URLs from USB QR Scanners",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "qrcodescanner-16.png", "128": "qrcodescanner-128.png" }
+}
